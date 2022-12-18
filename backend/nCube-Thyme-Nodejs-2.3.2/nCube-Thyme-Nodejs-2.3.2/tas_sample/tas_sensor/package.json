@@ -1,0 +1,22 @@
+{
+  "name": "tas",
+  "version": "0.0.2",
+  "dependencies": {
+    "fs": "0.0.2",
+    "js2xmlparser": "^4.0.2",
+    "net": "^1.0.2",
+    "serialport": "^10.4.0",
+    "shortid": "^2.2.16",
+    "xml2js": "^0.4.23"
+  },
+  "description": "tas of &Cube",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Il Yeup Ahn, KETI",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}

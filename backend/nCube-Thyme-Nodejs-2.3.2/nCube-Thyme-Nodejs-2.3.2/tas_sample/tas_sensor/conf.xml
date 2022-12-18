@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<m2m:conf xmlns:m2m="http://www.onem2m.org/xml/protocols" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    
+    <tas>
+        <!-- 라즈베리파이 -->
+        <!-- <comport>/dev/ttyUSB0</comport> -->
+        
+        <!-- 컴퓨터 -->
+        <comport>COM10</comport>
+        <baudrate>19200</baudrate>
+        <parenthostname>localhost</parenthostname>//ncube와 일치
+        <parentport>3105</parentport> //ncube와 일치
+    </tas>
+    
+    <download> 
+        <ctname>sensor</ctname>
+        <id>id_sensor</id>
+    </download>
+
+    <download> 
+        <ctname>ledfan</ctname>
+        <id>id_ledfan</id>
+    </download> -->
+
+    <download> 
+        <ctname>ledfan2</ctname>
+        <id>id_ledfan2</id>
+    </download>
+
+    <download> 
+        <ctname>alram</ctname>
+        <id>id_alram</id>
+    </download>
+    
+
+</m2m:conf>
